@@ -83,8 +83,10 @@ console.log(arr3);
 console.log('#12');
 
 function countNumber(number) {
+  let sum = 0;
   for (let n = 1; n <= number; n++) {
-    console.log((n*(n+1))/2);
+    sum += n;
+    console.log(sum);
   }
 }
 countNumber(5)
