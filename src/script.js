@@ -81,12 +81,11 @@ const arr3 = arr1.concat(arr2);
 console.log(arr3);
 
 console.log('#12');
-const number = prompt('Введите любое целое положительное число');
 
 function countNumber(number) {
   for (let n = 1; n <= number; n++) {
     console.log((n*(n+1))/2);
   }
 }
-countNumber(3)
+countNumber(5)
  
