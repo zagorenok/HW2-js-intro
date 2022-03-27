@@ -69,9 +69,7 @@ getDayInfo(6)
 
 console.log('#10');
 const arr = ['a', 'b', 'c'];
-arr[3] = 1;
-arr[4] = 2;
-arr[5] = 3;
+arr.push(1, 2, 3);
 console.log(arr);
 
 console.log('#11');
@@ -82,12 +80,14 @@ console.log(arr3);
 
 console.log('#12');
 
-function countNumber(number) {
+function countNumber(number) { 
   let sum = 0;
   for (let n = 1; n <= number; n++) {
-    sum += n;
-    console.log(sum);
+    sum += n; 
   }
+  console.log(sum);
+  return sum;
 }
+
 countNumber(5)
  
